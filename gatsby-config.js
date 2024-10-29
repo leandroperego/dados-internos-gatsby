@@ -10,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-source-rest-api`,
       options: {
-        endpoints: ["https://jsonplaceholder.typicode.com/users"]
+        endpoints: ["https://jsonplaceholder.typicode.com/users", "https://jsonplaceholder.typicode.com/posts"]
       }
     }
   ],

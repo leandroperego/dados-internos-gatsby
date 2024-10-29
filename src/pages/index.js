@@ -19,6 +19,8 @@ export default function Index() {
       <p>Aqui é a home page!</p>
       <p>Segundo paragrafo criado para dar novo push e observar no netlify o comportamento</p>
       <Link to="/users">Users</Link>
+      <br />
+      <Link to="/posts">Posts</Link>
     </main>
   )
 }
