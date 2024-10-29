@@ -1,5 +1,5 @@
 import * as React from "react"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 
 export default function Index() {
 
@@ -18,6 +18,7 @@ export default function Index() {
       <h2>Segundo titulo com o title do gatsby-config: {data.site.siteMetadata.title}</h2>
       <p>Aqui é a home page!</p>
       <p>Segundo paragrafo criado para dar novo push e observar no netlify o comportamento</p>
+      <Link to="/users">Users</Link>
     </main>
   )
 }
